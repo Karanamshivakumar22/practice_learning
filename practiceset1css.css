@@ -1,0 +1,14 @@
+.red{
+    background-color: red;
+    color: white;
+}
+
+.a{
+    background-color: yellow;
+    color:red;
+}
+.b{
+    color:navy;
+    margin: 0;
+    padding: 0;
+}
