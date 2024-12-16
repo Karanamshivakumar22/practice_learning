@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
+/* Import Google Fonts */
 * {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
+/* Reset padding and margin for all elements and set font family to Poppins */
 body {
     background-color: black;
 }
 
+/* Set background color of body to black */
 .main {
     background-image: url("assets/images/bg.jpg");
     background-position: center center;
@@ -19,6 +22,7 @@ body {
     position: relative;
 }
 
+/* Set background image, position, size, and repeat for main section */
 .main .box {
     height: 644px;
     width: 100%;
@@ -28,6 +32,7 @@ body {
     background-color: black;
 }
 
+/* Set height, width, opacity, position, and background color for box inside main section */
 nav {
     max-width: 60vw;
     justify-content: space-between;
@@ -37,6 +42,7 @@ nav {
     height: 100px;
 }
 
+/* Set max width, justify content, margin, display, align items, and height for nav */
 nav img {
     color: red;
     width: 130px;
@@ -44,11 +50,13 @@ nav img {
     z-index: 10;
 }
 
+/* Set color, width, position, and z-index for nav img */
 nav button {
     position: relative;
     z-index: 10;
 }
 
+/* Set position and z-index for nav button */
 .hero {
     font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 100px);
@@ -62,6 +70,7 @@ nav button {
     padding: 0 30px;
 }
 
+/* Set font family, height, display, align items, justify content, flex direction, color, position, gap, and padding for hero */
 .hero> :nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
@@ -69,18 +78,21 @@ nav button {
     text-align: center;
 }
 
+/* Set font family, font weight, font size, and text align for first child of hero */
 .hero> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
 
+/* Set font weight, font size, and text align for second child of hero */
 .hero> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
 }
 
+/* Set font weight, font size, and text align for third child of hero */
 .separation {
     height: 7px;
     background-color: rgb(46, 44, 44);
@@ -88,6 +100,7 @@ nav button {
     z-index: 20;
 }
 
+/* Set height, background color, position, and z-index for separation */
 .btn {
     padding: 3px 8px;
     font-weight: 400;
@@ -99,6 +112,7 @@ nav button {
 
 }
 
+/* Set padding, font weight, color, background color, border radius, border, and cursor for btn */
 .btn-red {
     background-color: red;
     color: white;
@@ -108,11 +122,13 @@ nav button {
     font-weight: 400;
 }
 
+/* Set background color, color, padding, font size, border radius, and font weight for btn-red */
 .btn-red-sm {
     background-color: red;
     color: white;
 }
 
+/* Set background color and color for btn-red-sm */
 .hero-buttons {
     display: flex;
     align-items: center;
@@ -120,6 +136,7 @@ nav button {
     gap: 16px;
 }
 
+/* Set display, align items, justify content, and gap for hero-buttons */
 .main input {
     padding: 7px 101px 8px 14px;
     color: white;
@@ -129,6 +146,7 @@ nav button {
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
+/* Set padding, color, font size, border radius, background color, and border for main input */
 .first {
     display: flex;
     justify-content: center;
@@ -141,16 +159,19 @@ nav button {
 
 
 
+/* Set display, justify content, max width, margin, color, justify content, and align items for first */
 .secImg {
     position: relative;
 }
 
+/* Set position for secImg */
 .secImg img {
     width: 555px;
     position: relative;
     z-index: 10;
 }
 
+/* Set width, position, and z-index for secImg img */
 .secImg video {
     position: absolute;
     top: 51px;
@@ -158,44 +179,52 @@ nav button {
     width: 555px;
 }
 
+/* Set position, top, right, and width for secImg video */
 section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0;
 }
 
+/* Set display, flex direction, and padding for div inside first section */
 section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
 
 
+/* Set font size and font weight for first child of div inside first section */
 section.first>div :nth-child(2) {
     font-size: 24px;
 
 }
 
 
+/* Set font size for second child of div inside first section */
 .faq h2 {
     text-align: center;
     font-size: 48px;
 }
 
+/* Set text align and font size for h2 inside faq */
 .faq {
     background: black;
     color: white;
     padding: 34px;
 }
 
+/* Set background, color, and padding for faq */
 .faqbox:hover {
     background-color: #414141;
     color: white;
 }
 
+/* Set background color and color for faqbox on hover */
 .faqbox svg {
     filter: invert(1);
 }
 
+/* Set filter for svg inside faqbox */
 .faqbox {
     transition: all 1s ease-out;
     font-size: 24px;
@@ -208,6 +237,7 @@ section.first>div :nth-child(2) {
     cursor: pointer;
 }
 
+/* Set transition, font size, display, justify content, background color, padding, max width, margin, and cursor for faqbox */
 footer {
     color: white;
     max-width: 60vw;
@@ -215,11 +245,13 @@ footer {
     padding: 60px;
 }
 
+/* Set color, max width, margin, and padding for footer */
 footer .questions {
     padding: 34px 0;
 }
 
 
+/* Set padding for questions inside footer */
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -228,36 +260,44 @@ footer .questions {
 
 
 
+/* Set display, grid template columns, and color for footer */
 @media screen and (max-width: 1300px) {
 
     nav{
         max-width: 90vw;
     }
 
+    /* Set max width for nav on screens smaller than 1300px */
     .first {
         flex-wrap: wrap;
     }
 
+    /* Set flex wrap for first on screens smaller than 1300px */
     .secImg img {
         width: 305px;
     }
 
+    /* Set width for secImg img on screens smaller than 1300px */
     .secImg video {
         width: 305px;
     }
 
+    /* Set width for secImg video on screens smaller than 1300px */
     .hero> :nth-child(1) {
         font-size: 32px;
     }
 
+    /* Set font size for first child of hero on screens smaller than 1300px */
     .hero> :nth-child(2) {
         font-size: 18px;
     }
 
+    /* Set font size for second child of hero on screens smaller than 1300px */
     .hero> :nth-child(3) {
         font-size: 18px;
     }
 
+    /* Set font size for third child of hero on screens smaller than 1300px */
     .hero-buttons {
         display: flex;
         flex-direction: column;
@@ -266,16 +306,19 @@ footer .questions {
         gap: 16px;
     }
 
+    /* Set display, flex direction, align items, justify content, and gap for hero-buttons on screens smaller than 1300px */
     .faq h2 {
         text-align: center;
         font-size: 32px;
     }
 
+    /* Set text align and font size for h2 inside faq on screens smaller than 1300px */
     footer {
         max-width: 90vw;
         padding: 75px 0;
     }
 
+    /* Set max width and padding for footer on screens smaller than 1300px */
     .footer-item{
         align-items: center;
     }
@@ -285,6 +328,7 @@ footer .questions {
 
 
 
+/* Set align items for footer-item on screens smaller than 1300px */
 @media screen and (max-width: 1300px) {
 
     .footer {
@@ -295,11 +339,13 @@ footer .questions {
 }
 
 
+/* Set display, grid template columns, and gap for footer on screens smaller than 1300px */
 .footer a {
     font-size: 14px;
     color: white;
 }
 
+/* Set font size and color for a inside footer */
 .footer-item {
     display: flex;
     flex-direction: column;
